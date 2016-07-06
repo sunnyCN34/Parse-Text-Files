@@ -13,7 +13,7 @@ class mycode
     while(s1.hasNext())
      {
     String word=s1.next();
-       if(word.equals("kite"))
+       if(word.equals("function"))
           {
            count++;
           }
@@ -26,7 +26,7 @@ Scanner s2= new Scanner(f2);
    while(s2.hasNext())
     {
    String word2= s2.next();
-       if(word2.equals("wizards"))
+       if(word2.equals("function"))
           {
          count2++;
           }
@@ -36,7 +36,7 @@ Scanner s2= new Scanner(f2);
      
       percent= (count*100)/count2;
 
- System.out.println("Percentage of test coverage we have is equal to= "+percent); 
+ System.out.println("Percentage of test coverage we have is equal to= "+percent+"%"); 
    } 
        catch(Exception e)
          {
