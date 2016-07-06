@@ -1,1 +1,1 @@
-This code extracts a word and find its frequency  
+This code extracts a word and finds the frequency of that word and calculates the percentage  
