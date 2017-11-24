@@ -11,7 +11,7 @@ class mycode {
             Scanner s1 = new Scanner(f1);
             while (s1.hasNext()) {
                 String word = s1.next();
-                
+
                 //check how many functions are present in original file
                 if (word.equals("function")) {  
                     count++;
@@ -31,6 +31,7 @@ class mycode {
             System.out.println("word appears= " + count2 + " times in second text file");
             System.out.println("count=" + count + " count2=" + count2);
 
+            //calculate the percentage
             percent = (count * 100) / count2;
 
             System.out.println("Percentage of test coverage we have is equal to= " + percent + "%");
