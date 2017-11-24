@@ -28,6 +28,7 @@ class mycode {
                     count2++;
                 }
             }
+            //print out everything
             System.out.println("word appears= " + count2 + " times in second text file");
             System.out.println("count=" + count + " count2=" + count2);
 
