@@ -11,7 +11,9 @@ class mycode {
             Scanner s1 = new Scanner(f1);
             while (s1.hasNext()) {
                 String word = s1.next();
-                if (word.equals("function")) {
+                
+                //check how many functions are present in original file
+                if (word.equals("function")) {  
                     count++;
                 }
 
